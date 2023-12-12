@@ -19,7 +19,6 @@ export default function Examples() {
     // Using proxy (forwarded) props to pass data to the Section component. Added ...props to Section
     <Section title="Examples" id="examples">
       <Tabs
-        ButtonsContainer="menu"
         buttons={<>
           <TabButton
             isSelected={selectedTopic === "components"}
